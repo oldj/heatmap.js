@@ -32,7 +32,6 @@ window.onload = function () {
 		}
 	}
 
-	console.log(rnd_points.length);
 	hm.addData(rnd_points);
 
 	hm.render();
