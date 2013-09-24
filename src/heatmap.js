@@ -77,6 +77,8 @@
 			this._original_points = this._newEmptyArray(this._size);
 			this._flat_points = this._newEmptyArray(this._size);
 
+			this.canvas.width = this.width;
+			this.canvas.height = this.height;
 		},
 
 		_findMax: function (arr) {
@@ -122,7 +124,7 @@
 
 			for (i = 0; i < size; i++) {
 				rgba = colors[flat_data[i]];
-				p = i * 4;
+				p = i << 2;
 				pix[p] = rgba[0];
 				pix[p + 1] = rgba[1];
 				pix[p + 2] = rgba[2];
@@ -206,8 +208,8 @@
 				rgb[i] = Math.floor(rgb[i] * 256);
 			}
 
-			// s < 0
 		} else {
+			// s < 0
 			rgb = [l, l, l];
 		}
 
