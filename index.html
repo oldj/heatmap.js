@@ -47,10 +47,12 @@
 				<p>用法：</p>
 
 <pre><code>
-<div>
-		<canvas id="test-canvas"></canvas>
-</div>
+&lt;div>
+		&lt;canvas id="test-canvas">&lt;/canvas>
+&lt;/div>
 </code></pre>
+
+<pre><code>
 var hm = new HeatMap(document.getElementById("test-canvas"), w, h);
 var points = [
 		[120, 23],
@@ -60,7 +62,6 @@ var points = [
 
 hm.addData(points);
 hm.render();
-<pre><code>
 </code></pre>
 
 				<p></p>
