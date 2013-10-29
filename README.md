@@ -9,14 +9,12 @@ heatmap.js是一个基于Canvas的热图绘制库。
  
 * 版本：1.0
 * 作者：oldj
-* demo：[http://gallery.kissyui.com/kheatmap/1.0/demo/index.html](http://gallery.kissyui.com/kheatmap/1.0/demo/index.html)
+* demo：[http://oldj.github.io/heatmap.js/](http://oldj.github.io/heatmap.js/)
  
 ## 初始化组件
  
-    S.use('gallery/kheatmap/1.0/index', function (S, KHeatMap) {
-         var kheatmap = new KHeatMap(canvas_node, width, height);
-    });
- 
+    var heatmap = new HeatMap(canvas_node, width, height);
+
 ## API说明
  
 * *addData(data)*
