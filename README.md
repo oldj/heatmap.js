@@ -4,7 +4,7 @@ heatmap.js
     @author: oldj
     @blog: http://oldj.net
 
-KHeatMap是一个基于KISSY及Canvas的热图绘制库。
+heatmap.js是一个基于Canvas的热图绘制库。
 
  
 * 版本：1.0
