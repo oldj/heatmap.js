@@ -4,7 +4,7 @@
  */
 
 function demo1() {
-        var w = 800, h = 600;
+        var w = 640, h = 360;
         var hm = new HeatMap(document.getElementById("rnd-canvas"), w, h);
         var rnd_points = [];
         var init_count = 3;
@@ -37,7 +37,7 @@ function demo1() {
 }
 
 function demo2() {
-        var w = 800, h = 600;
+        var w = 640, h = 360;
         var hm = new HeatMap(document.getElementById("dynamic-canvas"), w, h);
 
         function loop() {
